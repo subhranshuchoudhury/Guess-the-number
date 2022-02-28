@@ -1,8 +1,6 @@
 body{
 	background: linear-gradient(90deg, yellow, green);
 	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
 }
 
 h3{
