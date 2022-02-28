@@ -1,9 +1,9 @@
 const originalnum = Math.floor(Math.random() * 10) + 1;
-var counter = 0;
+var counter = 4;
 document.getElementById("win_display").style.display = "none";
 function guess() {
 var guessnum = document.getElementById('input_num').value;
-counter++;
+counter--;
 
 //if guess is smaller.
 if (guessnum < originalnum) {
@@ -20,7 +20,7 @@ document.getElementById("win_display").style.display = "";
 
 }
 document.getElementById('total_guess').innerHTML = "Guess Left: " + counter + "/4";
-if (counter == 5) {
+if (counter == 0) {
 alert("Game Over! You Lose :(");
 location.reload()
 }
