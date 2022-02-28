@@ -1,10 +1,13 @@
-const originalnum = 3;
-//Math.floor(Math.random() * 10) + 1;
+const originalnum = Math.floor(Math.random() * 10) + 1;
 var counter = 4;
 var enter_sound = new Audio('sounds/pop.mp3');
 var win_sound = new Audio('sounds/win.mp3');
 var lose_sound = new Audio('sounds/lose.mp3');
 document.getElementById("win_display").style.display = "none";
+document.getElementById("lose_display").style.display = "none";
+document.getElementById("restart_btn").style.display = "none";
+
+
 function guess() {
 enter_sound.play();
 enter_sound.currentTime = 0;
@@ -33,13 +36,18 @@ counter--;
 document.getElementById('total_guess').innerHTML = "Chance Left: " + counter;
 if (counter == 0) {
 lose_sound.play();
-alert("Game Over! You Lose :(");
-location.reload()
+document.getElementById("lose_display").style.display = "";
+document.getElementById("lose_display").style.display = "";
+document.getElementById("enter_btn").style.display = "none";
+document.getElementById("restart_btn").style.display = "";
+
 }
 }
 function restartgame() {
 enter_sound.play();
 enter_sound.currentTime = 0;
 location.reload()
+
+
 
 }
