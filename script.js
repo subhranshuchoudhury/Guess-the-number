@@ -33,7 +33,7 @@ function guess() {
 	document.getElementById('total_guess').innerHTML = "Total Guessed: " + counter + "/5";
 
 	if (counter == 5) {
-
+		alert("Game Over! You Lose :(");
 		location.reload()
 	}
 
