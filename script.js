@@ -27,6 +27,8 @@ win_sound.play();
 win_sound.currentTime = 0;
 document.getElementById('display').innerHTML = "You Won!";
 document.getElementById("win_display").style.display = "";
+document.getElementById("enter_btn").style.display = "none";
+document.getElementById("restart_btn").style.display = "";
 
 }
 else{
