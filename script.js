@@ -19,7 +19,7 @@ document.getElementById('display').innerHTML = "You Won!";
 document.getElementById("win_display").style.display = "";
 
 }
-document.getElementById('total_guess').innerHTML = "Guess Left: " + counter + "/4";
+document.getElementById('total_guess').innerHTML = "Guess Left: " + counter;
 if (counter == 0) {
 alert("Game Over! You Lose :(");
 location.reload()
