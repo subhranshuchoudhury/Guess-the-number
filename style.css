@@ -1,16 +1,14 @@
 body{
 background: linear-gradient(90deg, yellow, green);
 height: 100%;
+margin: 0px;
 
 }
 h3{
-display: table;
-text-align: center;
-margin: 50px;
+margin: 0px;
 font-family: sans-serif;
 color: floralwhite;
 background: green;
-border-radius: 20px;
 padding: 8px;
 }
 h4{
@@ -20,7 +18,7 @@ margin: 50px;
 font-family: sans-serif;
 color: floralwhite;
 background: indianred;
-border-radius: 3px;
+border-radius: 20px;
 padding: 8px;
 }
 input{
