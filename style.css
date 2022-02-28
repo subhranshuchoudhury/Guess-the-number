@@ -1,6 +1,7 @@
 body{
 	background: linear-gradient(90deg, yellow, green);
 	height: 100%;
+	background-repeat: no-repeat;
 }
 
 h3{
@@ -9,7 +10,7 @@ h3{
 	margin: 50px;
 	font-family: sans-serif;
 	color: floralwhite;
-	background: greenyellow;
+	background: green;
 	border-radius: 20px;
 	padding: 8px;
 }
