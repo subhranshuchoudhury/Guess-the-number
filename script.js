@@ -50,6 +50,8 @@ enter_sound.play();
 enter_sound.currentTime = 0;
 originalnum = Math.floor(Math.random() * 10) + 1;
 counter = 4;
+document.getElementById("enter_btn").style.display = "";
+document.getElementById("restart_btn").style.display = "none";
 
 
 
