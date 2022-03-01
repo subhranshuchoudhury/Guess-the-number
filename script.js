@@ -48,7 +48,8 @@ document.getElementById("restart_btn").style.display = "";
 function restartgame() {
 enter_sound.play();
 enter_sound.currentTime = 0;
-location.reload()
+originalnum = Math.floor(Math.random() * 10) + 1;
+counter = 4;
 
 
 
