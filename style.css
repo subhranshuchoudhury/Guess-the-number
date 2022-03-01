@@ -2,7 +2,6 @@ body{
 background: linear-gradient(90deg, yellow, green);
 height: 100%;
 margin: 0px;
-
 }
 h3{
 margin: 0px;
@@ -15,6 +14,7 @@ h4{
 display: table;
 text-align: center;
 margin: 50px;
+margin-bottom: 10px;
 font-family: sans-serif;
 color: floralwhite;
 background: indianred;
