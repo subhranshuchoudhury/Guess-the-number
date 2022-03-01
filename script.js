@@ -47,11 +47,7 @@ document.getElementById("restart_btn").style.display = "";
 function restartgame() {
 enter_sound.play();
 enter_sound.currentTime = 0;
-window.originalnum = Math.floor(Math.random() * 10) + 1;
-window.counter = 4;
-document.getElementById("enter_btn").style.display = "";
-document.getElementById("restart_btn").style.display = "none";
-
+location.reload()
 
 
 
