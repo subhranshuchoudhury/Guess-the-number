@@ -39,7 +39,6 @@ document.getElementById('total_guess').innerHTML = "Chance Left: " + counter;
 if (counter == 0) {
 lose_sound.play();
 document.getElementById("lose_display").style.display = "";
-document.getElementById("lose_display").style.display = "";
 document.getElementById("enter_btn").style.display = "none";
 document.getElementById("restart_btn").style.display = "";
 
@@ -48,10 +47,11 @@ document.getElementById("restart_btn").style.display = "";
 function restartgame() {
 enter_sound.play();
 enter_sound.currentTime = 0;
-originalnum = Math.floor(Math.random() * 10) + 1;
-counter = 4;
+window.originalnum = Math.floor(Math.random() * 10) + 1;
+window.counter = 4;
 document.getElementById("enter_btn").style.display = "";
 document.getElementById("restart_btn").style.display = "none";
+
 
 
 
